@@ -1,6 +1,6 @@
 {
   "name": "@rhelements/lgtm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Leave Godzilla To Me!  A random LGTM generator.",
   "main": "lgtm.js",
   "bin": "lgtm.js",
