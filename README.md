@@ -1,2 +1,6 @@
-# lgtm
-Leave Godzilla To Me
+# Leave Godzilla To Me
+
+A random LGTM generator.
+
+    npm i -g @rhelements/lgtm
+    lgtm
