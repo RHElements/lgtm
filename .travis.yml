@@ -11,10 +11,12 @@ cache:
   directories:
   - node_modules
 deploy:
-  # email and auth token are provided via environment variables in travis config. https://travis-ci.com/RHElements/lgtm/settings
   provider: npm
   edge: true
   on:
     tags: true
     branch: master
     repo: RHElements/lgtm
+  email: mwc@clayto.com
+  api_token:
+    secure: hs4dMkUS3jA8C8vGOC46qYLbNJEPyrVMlKXbKegbokpjAAHSfBU7x6Mtf4kML3R+sHYLkea4p4lcz0s4JQxzR+pBxhsxZrqquMD+sQAxpym+1TtnZfHB6QmvEoXYvnBEbyzHXlE0jRLKYJkLwsT3qR78hvTAgHTak2xeM7utEsVLBJgOVk4DTpv+LLlXo3yHRKyfbQa4zy7WxoZRQR9+1OeN+mQAa3yP5ooNzirIQQbC5quAoH6USg3FzGEzNk/WbiZx3PdN7sT2zZxlwA1y+a/NDXtniyNttOkrqRSXCtWrFEwj39/wydxRLFtNbJ+hEiLrLGP1ly4eBsCX1tVaW1OFjD9GTKMJM960Wz81z31SMuiY6yuRobKaJs948UzHdyBl0ak6D3k78Gp5YKiUeVUM2CQ5eGZtlVxsm9si/yfD7J+JkAofIVAPz8XraVab+HAN2RwQgpHnJ6FfwCIHcAFQVn15cvkttO0RfDaKu30JD1mRabc30ZvUKs7Py8mC+jsXFD2vdB2Zn51yxVB/r6k8O8AIUUxdl9p2Oe4SFDTiuEgwPQug6sp/upLVFpPjSDMeqStlh9PlkTx3AtwWSgOGGw6T/zMtC5UnnBBO/mvD5aHxxK1gcqrPLoJPSANRgoGsc7Fb/zG2InYCAyA2piyRVx7RlV8+FMiIdoMuQMk=
