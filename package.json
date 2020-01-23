@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/RHElements/lgtm/issues"
   },
-  "homepage": "https://github.com/RHElements/lgtm#readme"
+  "homepage": "https://github.com/RHElements/lgtm#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
