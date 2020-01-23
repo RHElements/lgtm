@@ -6,6 +6,55 @@ os:
     - linux
 script:
     - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
+    - npm test
 cache:
     directories:
         - node_modules
