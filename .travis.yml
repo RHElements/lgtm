@@ -1,60 +1,68 @@
 language: node_js
 sudo: false
 node_js:
-    - "12"
+- '12'
 os:
-    - linux
+- linux
 script:
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
-    - npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
+- npm test
 cache:
-    directories:
-        - node_modules
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: mwc@clayto.com
+  api_key:
+    secure: NLJkvpksOI5YOrJeeFrBQoqIujyu2xCzb3eATRqUHaQkImG2icbhOEC7llScqylvvryzMpgDP0OfdT2rb85Rv8Y6ii7Ht+vSODsA18dOcXogzbSarYsalYLNpuuRaSiAerdoq2RU530wuty5mT1ofz1FgFx1MJXJsCwO8/rSA1m/z19JZOHRb0TMZ29axhJWpcCYfxy/s9/osj/+niIa2HAXT7KEbOSMlc7DjYxVuM+jYkD7FjkhiYHl6pkiigT0pIAk2DxofoBs3LqKj6aVNlxBXJBxMfXX2SniCT1qiByoIizClfuSxpCgT/7+xnL02oagpApcA8npPmFYRilSfnDu7YJGnTFQXI4hmxBOkAMlAaSd2nEROODdM9G8BcFfxVvPg2QUTfBG29HlCQQd3a+5NQufgnHvBp35GN/zB8Cm8AdOHRsqknatg5Z83IhyNMbFkFkGW7aE+PLJSVcuhpyunL5zfQdAOhPbGns1Xv9MWMSZ06jgFg1iZ0pbn6eH7ynSP9knq8tw+2MgVNSdG8DDwTAo+a5ZMtJ7p0IUavBVnrvryS0NkDCABwrzcFdE5qCIP7QICuVtGod26xMUa9gylxxVrWkAjjEqJRmQGgE4eVn4XJHQQ8scDyX9vHfCU0/elezFhAHaMW9TuXfy9C2BJBUmROWEcKpKVWm8/ZQ=
+  on:
+    tags: true
+    repo: RHElements/lgtm
