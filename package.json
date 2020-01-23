@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx lgtm | grep \"^L\\S\\+ G\\S\\+ T\\S\\+ M\\S\\+$\"",
     "start": "node lgtm.js"
   },
   "keywords": [
