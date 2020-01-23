@@ -5,7 +5,7 @@ node_js:
 os:
     - linux
 script:
-    - npm test -- --verbose
+    - npm test
 cache:
     directories:
         - node_modules
