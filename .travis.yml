@@ -11,6 +11,7 @@ cache:
   - node_modules
 deploy:
   provider: npm
+  email: mwc@clayto.com
   on:
     branch: master
     repo: RHElements/lgtm
