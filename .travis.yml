@@ -12,6 +12,5 @@ cache:
 deploy:
   provider: npm
   on:
-    tags: true
     branch: master
     repo: RHElements/lgtm
