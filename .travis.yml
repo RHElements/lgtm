@@ -15,3 +15,5 @@ deploy:
   on:
     branch: master
     repo: RHElements/lgtm
+  api_key:
+    secure: Lqo/+xa466tY8ZfX7wtd1bR7c+NILx+E/jbODoyDuWGxbzhqXY85YLx5fyLFM2HfVaazNneC+BVSop2Um+WiEV+VuCONc5FBnhJDmMQrHwBc6e2KzfA8ETW35+aAmZIFx7yAoibpmAVgY0fuRB8ct410dduAv7c4yrjEsfm5swui3X4NnmVqlCX47KHlY4Cf+nsFNnbgAxw0049HPBRNNusVCGPoGIGMBz91WHfBf7s/lybsHQ4QEt/zYWRTCDx83QhKZAoRGDR7f8WrHsM0jqPHn/hNRLlM0IW9GxhtN03+j8Qxto+B9kX/2Y2q+jDctI0bPuohVIEpQpG4mIPc9qNZ3tDtSVU7Cc/hStjIjF7wbNa9ee4heiO83lO/qc6R8/1ap4FhKqNCXjFmgDLpBtd3rPb9FbMMxs7o5MVyI0Bfj7bAHa71lBZbWDEhNVHmuwiJmL3twJOFmYCLwtGifkc17F/8dBrBQWXNOLcd7rJvVMZvyPAEn/oIcAbHgafaarKcdQQl3mxasFtM69SghHGrRI/52SFZFAWu45ATt9HdGOX3Xm9+h40jnAscglvjvP3+S5TZiZwNGyvHgZfR4k2/BzhWhmjPR/GVqy7zv0/givG/yopFAyGdi3gJ/pVcJ4MtaDa7RiF8fyyH+q29pBZ1mTrUWVp1YdkQs8kgpcE=
