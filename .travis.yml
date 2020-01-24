@@ -1,5 +1,4 @@
 language: node_js
-version: 1.0
 sudo: false
 node_js:
 - '12'
@@ -12,7 +11,6 @@ cache:
   - node_modules
 deploy:
   provider: npm
-  edge: true
   on:
     tags: true
     branch: master
